@@ -40,7 +40,13 @@ Use /CmdCreate [Name] If you needed commands.
   How can i get MCGalaxy Commands with Cmd[name].cs here?
 
 
-  This is easy.
+  This is easy. You just need click this link to view alot of commands by MCGalaxy
 
- 
+ https://github.com/UnknownShadow200/MCGalaxy/tree/master/MCGalaxy
+
+ WARNING: You can't put mcgalaxy commands on the plugins folder you should put MCGalaxy Commands at /extra/commands/source
+
+
+---------------------MORE TUTORIALS SOON!-----------------------------------------------------------------------------------------------------------------------------------
+
 
