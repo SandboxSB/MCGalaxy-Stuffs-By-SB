@@ -7,9 +7,9 @@ namespace MCGalaxy
 {
     public class CmdParkourrules : Command
     {
-        public override string name { get { return "FreebuildRules"; } }
+        public override string name { get { return "CustomRules"; } }
 
-        public override string shortcut { get { return "FBrules"; } }
+        public override string shortcut { get { return "CustomRulesShortCut"; } }
 
         public override string type { get { return "other"; } }
 
@@ -20,17 +20,17 @@ namespace MCGalaxy
         public override void Use(Player p, string message)
         {
             List<string> rules = new List<string>();
-            if (!File.Exists("text/freebuildrules.txt"))
+            if (!File.Exists("text/customrules.txt"))
             {
-                File.WriteAllText("text/freebuildrules.txt", "No rules entered yet!");
+                File.WriteAllText("text/customrules.txt", "No rules entered yet!");
             }
-            using (StreamReader reader = File.OpenText("text/freebuildrules.txt"))
+            using (StreamReader reader = File.OpenText("text/customrules.txt"))
             {
                 while (!reader.EndOfStream)
                 rules.Add(reader.ReadLine());
             }
             
-            p.Message("%fFreebuild Rules:");
+            p.Message("%fCustom Rules:");
             foreach (string rule in rules) {
                 p.Message(rule);
             }
@@ -39,8 +39,8 @@ namespace MCGalaxy
 
         public override void Help(Player p)
         {
-            p.Message("%T/FreebuildRules");
-            p.Message("%HSends you the rules of the freebuild.");
+            p.Message("%T/CustomRules");
+            p.Message("%HSends you the rules of the Custom Rules.");
         }
     }
 }
