@@ -12,3 +12,35 @@ And you're done, enjoy your command.
 NOTE: If you want your commands to load upon server start, you should add the command name into the ./text/cmdautoload.txt file.
 
 For example, if your command file is named CmdHelloWorld.cs, you would put HelloWorld on a new line.
+
+
+
+
+---------------------TUTORIAL 2-----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+ If you have a .dll file without .cs Here's the tutorial how to add plugins if its .dll Go to server files. and go to plugins folder then upload an .dll file Now 
+Restart your server.
+
+
+---------------------TUTORIAL 3-----------------------------------------------------------------------------------------------------------------------------------
+
+ How can i make my own custom command plugin?
+
+Use /PCreate [name] If you needed plugin.
+
+Use /CmdCreate [Name] If you needed commands.
+
+
+---------------------TUTORIAL 4-----------------------------------------------------------------------------------------------------------------------------------
+
+   
+  How can i get MCGalaxy Commands with Cmd[name].cs here?
+
+
+  This is easy.
+
+ 
+
