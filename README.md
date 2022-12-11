@@ -1,6 +1,6 @@
 # MCGalaxy-Stuffs-By-SB
 
-Installation
+# Installation
 How to install plugins:
 Put the plugin's .cs file into the ./plugins/ folder. If it's not there, make a new folder and put it in there.
 Either in-game or via the server console, type /pcompile [plugin name]. It should say Plugin compiled successfully., if it doesn't, make an issue here.
@@ -18,7 +18,7 @@ For example, if your command file is named CmdHelloWorld.cs, you would put Hello
 
 
 
----------------------TUTORIAL 2-----------------------------------------------------------------------------------------------------------------------------------
+#                   TUTORIAL 2
 
 
 
@@ -27,7 +27,7 @@ For example, if your command file is named CmdHelloWorld.cs, you would put Hello
 Restart your server.
 
 
----------------------TUTORIAL 3-----------------------------------------------------------------------------------------------------------------------------------
+#                   TUTORIAL 3
 
  How can i make my own custom command plugin?
 
@@ -36,7 +36,7 @@ Use /PCreate [name] If you needed plugin.
 Use /CmdCreate [Name] If you needed commands.
 
 
----------------------TUTORIAL 4-----------------------------------------------------------------------------------------------------------------------------------
+#                     TUTORIAL 4
 
    
   How can i get MCGalaxy Commands with Cmd[name].cs here?
@@ -49,6 +49,5 @@ Use /CmdCreate [Name] If you needed commands.
  WARNING: You can't put mcgalaxy commands on the plugins folder you should put MCGalaxy Commands at /extra/commands/source
 
 
----------------------MORE TUTORIALS SOON!-----------------------------------------------------------------------------------------------------------------------------------
-
+#                 MORE TUTORIALS SOON! 
 
