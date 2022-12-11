@@ -1,4 +1,3 @@
-# MCGalaxy-Stuffs-By-SB
 
 # Installation
 How to install plugins:
