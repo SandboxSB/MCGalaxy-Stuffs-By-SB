@@ -1,1 +1,5 @@
-
+How to install plugins:
+Put the plugin's .cs file into the ./plugins/ folder. If it's not there, make a new folder and put it in there.
+Either in-game or via the server console, type /pcompile [plugin name]. It should say Plugin compiled successfully., if it doesn't, make an issue here.
+Now type /pload [plugin name]. It should say Plugin loaded successfully.
+And you're done, enjoy your plugin.
