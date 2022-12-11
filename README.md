@@ -48,5 +48,17 @@ Use /CmdCreate [Name] If you needed commands.
  WARNING: You can't put mcgalaxy commands on the plugins folder you should put MCGalaxy Commands at /extra/commands/source
 
 
-#                 MORE TUTORIALS SOON! 
+# Other Plugins, Commands Available 
+• https://github.com/ClassiCube/MCGalaxy-Plugins
 
+• https://github.com/NotAwesome2/Nas
+
+• https://github.com/NotAwesome2/MCGalaxy-CustomModels
+
+• https://github.com/ddinan/classicube-stuff
+
+• https://github.com/NotAwesome2/Not-Awesome-Script
+
+• https://github.com/NotAwesome2/Commands
+
+• https://github.com/NotAwesome2/Plugins
