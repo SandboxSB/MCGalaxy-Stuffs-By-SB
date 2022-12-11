@@ -16,10 +16,10 @@ namespace Marry
 		static OfflineStatPrinter offlineLine;
 
 		public override void Load(bool startup) {
-			Command.Register(new CmdAccept());
-			Command.Register(new CmdDeny());
-			Command.Register(new CmdDivorce());
-			Command.Register(new CmdMarry());
+			Command.Register(new CmdAccept1());
+			Command.Register(new CmdDeny1());
+			Command.Register(new CmdDelFriend());
+			Command.Register(new CmdAddFriend());
 
 			marriages = PlayerExtList.Load("extra/friends.txt");		
 			onlineLine  = (p, who) => FormatMarriedTo(p, who.name);
@@ -177,7 +177,7 @@ namespace Marry
 			}
 			
 			const string msg = "λNICK&S is asking {0}&S to become friends";
-			Chat.MessageFrom(p, "-λNICK&S Become friends.");
+			Chat.MessageFrom(p, "-λNICK&S wants to be friend with");
 			Chat.MessageFrom(p, string.Format(msg, p.FormatNick(partner)));
 			
 			partner.Extras[MarryPlugin.EXTRA_KEY] = p.name;
