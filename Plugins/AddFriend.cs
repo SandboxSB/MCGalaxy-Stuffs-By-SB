@@ -7,7 +7,7 @@ namespace Marry
 {
 	public sealed class MarryPlugin : Plugin 
 	{
-		public override string name { get { return "&cSB's &7Add Friend &6Plugin"; } }
+		public override string name { get { return "AddFriend"; } }
 		public override string MCGalaxy_Version { get { return "1.9.3.1"; } }
 		
 		public const string EXTRA_KEY = "__Add_Name";
