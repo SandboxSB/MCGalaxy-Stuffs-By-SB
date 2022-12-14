@@ -1,4 +1,6 @@
 
+![opt3](https://www.dropbox.com/s/ruas7n2erkqg26n/Screenshot_2022-12-15-02-47-23-651-edit_ru.zdevs.zarchiver.jpg?dl=0)
+
 # Installation
 How to install plugins:
 Put the plugin's .cs file into the ./plugins/ folder. If it's not there, make a new folder and put it in there.
